@@ -1,0 +1,20 @@
+/* Reset default margin */
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #1257be;          
+  font-family: "Segoe UI", Roboto, Sans-Serif;
+}
+
+.clock {
+  color: #00e0ff;               
+  font-size: 6rem;
+  letter-spacing: 0.1em;
+  text-shadow: 0 0 20px rgba(0, 224, 255, 0.7),
+               0 0 40px rgba(0, 224, 255, 0.5);
+/* using this we are unable to select the time using cursor */
+  user-select: none;
+}
